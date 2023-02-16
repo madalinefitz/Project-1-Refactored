@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="style.css">
+
+  <title>Seasonal Produce</title>
+</head>
+
+<body>
+  <div id="header">
+    <h1>Eating In Season</h1>
+    <p>Explore each season and discover some of the best fruits and veggies to enjoy!</p>
+  </div>
+
+  <div id="produce-form">
+    <form class="add-produce-form">
+      <h3>Add Your Favorite Produce!</h3>
+      <br />
+      <label>Produce Name:</label>
+      <br />
+      <input type="text" name="name" value="" placeholder="Fruit or veggie name..." class="input-text" />
+      <br />
+      <label>Vitamins:</label>
+      <br />
+      <input type="text" name="vitamins" value="" placeholder="Vitamins & Nutrients..." class="input-text" />
+      <br />
+      <label>Health Benefits:</label>
+      <br />
+      <input type="text" name="benefits" value="" placeholder="List some health benefits..." class="input-text" />
+      <br />
+      <label>Image:</label>
+      <br />
+      <input type="text" name="image" value="" placeholder="Image URL..." class="input-text" />
+      <br />
+      <label>Best Season:</label>
+      <br />
+      <input type="text" name="season" value="" placeholder="Summer, Winter, Fall, or Spring..." class="input-text" />
+      <br />
+      <input type="submit" name="submit" value="Add Produce" class="submit" />
+    </form>
+    <br />
+  </div>
+  <p id="btn" style="text-align:center">
+    <button id="new-produce-btn">Add New Produce</button>
+    <br />
+  </p>
+
+  <section id="container">
+
+    <div id="summerproduce" class="quarter">
+      <h2>SUMMER</h2>
+      <div id="summer">
+        <h4>Summer</h4>
+      </div>
+    </div>
+
+    <div id="fallproduce" class="quarter">
+      <h2>FALL</h2>
+      <div id="fall">
+        <h4>Fall</h4>
+      </div>
+    </div>
+
+    <div id="winterproduce" class="quarter">
+      <h2>WINTER</h2>
+      <div id="winter">
+        <h4>Winter</h4>
+      </div>
+    </div>
+
+    <div id="springproduce" class="quarter">
+      <h2>SPRING</h2>
+      <div id="spring">
+        <h4>Spring</h4>
+      </div>
+    </div>
+
+  </section>
+
+  <footer>
+
+    The after-party is <i>always</i> happening...
+    <br />
+    <img src="https://media1.giphy.com/media/Hcw7rjsIsHcmk/giphy.gif" alt="Cat gif">
+
+
+  </footer>
+
+</body>
+
+<script src="index.js"></script>
+
+</html>
